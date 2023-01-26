@@ -31,11 +31,6 @@ aside i.fa {
   font-size: 1.5em;
 }
 
-/* #brand-image{
-    height: 70px;
-    width: auto;
-} */
-
 footer {
   flex: 0 0 90px;
   color: #fff;
@@ -164,13 +159,5 @@ li:nth-child(2n) {
   .catty-music div:nth-child(1) p:first-child {
     font-size: 1em;
   }
-
-  /* .catty-music div:nth-child(1) p:not(:first-child) {
-    font-size: 0.9em;
-    margin: 2px 0;
-  }
   
-  .catty-music div:nth-child(2) {
-    margin-top: 0;
-  } */
 }
