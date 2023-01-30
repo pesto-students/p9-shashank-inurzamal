@@ -1,0 +1,59 @@
+
+.container {
+    margin: 30px;
+}
+
+.heading {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(80, 76, 70);
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.main {
+
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* p, article {
+    text-align: justify;
+} */
+
+.flex-container {
+    display: flex;
+    background-color: rgb(195, 240, 226);
+    justify-content: flex-start;
+    width: fit-content;
+    padding: 20px;
+}
+
+.flex-container > form > div {
+    padding: 10px;
+  }
+
+
+
+@media only screen and (max-width: 550px){
+    .main{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
